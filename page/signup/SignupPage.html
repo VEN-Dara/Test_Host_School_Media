@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href='https://fonts.googleapis.com/css?family=Roboto' rel='stylesheet'>
+    <link rel="stylesheet" href="SignupPage.css">
+    <title>Sign up</title>
+</head>
+<body>
+    <main class="background-screen">
+        <h1 class="school-media-header">School Media</h1>
+        <article style="width:min-content; margin: auto;">
+            <section class="bar">
+                <a href="../login/LoginPage.html">
+                    <button class="sign-in-bar-btn">
+                        Sign in
+                    </button>
+                </a>
+                <a href="../signup/SignupPage.html">
+                    <button class="sign-up-bar-btn">
+                        Sign up
+                    </button>
+                </a>
+            </section>
+            <section class="field-section">
+                <form action="../login/LoginPage.html">
+                    <div class="field-container">
+                        <p class="label first-name-label">First Name</p>
+                        <input type="text" class="field first-name-field" name="first-name-field" placeholder="Your firstname" autofocus>
+                    </div>
+
+                    <br>
+
+                    <div class="field-container">
+                        <p class="label last-name-label">Last Name</p>
+                        <input type="text" class="field last-name-field" name="last-name-field" placeholder="Your lastname" autofocus>
+                    </div>
+
+                    <br>
+
+                    <div class="field-container">
+                        <p class="label email-label">Email-@</p>
+                        <input type="text" class="field email-field" name="email-field" placeholder="email....@gmail.com" autofocus>
+                    </div>
+
+                    <br>
+
+                    <div class="field-container">
+                        <p class="label password-label">Password</p>
+                        <input type="password" class="field password-field" name="password-field" placeholder="">
+                    </div>
+
+                    <br>
+
+                    <div class="field-container">
+                        <p class="label comfirm-password-label">Comfirm Password</p>
+                        <input type="password" class="field comfirm-password-field" name="comfirm-password-field" placeholder="">
+                    </div>
+
+                    <div>
+                        <input type="submit" value="Sign up" class="log-in-btn">
+                    </div>
+                </form>
+            </section>
+            <a href="../login/LoginPage.html">
+                <section class="sign-in-section">
+                    <p class="sign-in-label">Already have an account?</p>
+                    <button class="sign-in-btn">Sign in</button>
+                </section>
+            </a>
+        </article>
+    </main>
+</body>
+</html>
